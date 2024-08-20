@@ -1,0 +1,94 @@
+#First {
+  color: #000000;
+  font-size: 30px;
+  text-shadow:
+     -1px -1px 0 #00ccf5,  
+      1px -1px 0 #00ccf5,
+      -1px 1px 0 #00ccf5,
+      1px 1px 0 #00ccf5;
+}
+
+body {
+  background-image: url("Kpop.jpg");
+  background-size: cover;
+  font-family: roboto;
+}
+
+p {
+  color: #000000;
+  font-size: 20px;
+  text-shadow:
+     -1px -1px 0 #00ccf5,  
+      1px -1px 0 #00ccf5,
+      -1px 1px 0 #00ccf5,
+      1px 1px 0 #00ccf5;  
+}
+
+#Home {
+  color: #e175ff;
+    background-color: #8c56dc;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #8c56dc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 24px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+  }
+
+#Third{
+  font-size: 30px;
+  color: #9c73e8;
+    text-shadow:
+       -1px -1px 0 #000000,  
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+
+
+}
+
+#Fourth{
+  color: #9c73e8;
+    text-shadow:
+       -1px -1px 0 #000000,  
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+
+}
+
+#Home {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  color: #ffffff;
+}
+h2 {
+  color: #00afdb;
+  font-family: Dosis;
+}
+h3 {
+  color: #59ff00;
+  font-family: roboto;
+}
+
+#Home {
+  display: flex;
+  justify-content: flex-end;
+   border-radius: 50px;
+}
+
+#Home:hover { 
+  color: #20d1fe;
+}
+
+#Home:active{
+  color: #0011ff;
+}

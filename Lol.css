@@ -1,0 +1,89 @@
+#First {
+  color: #000000;
+  font-size: 30px;
+  text-shadow:
+     -1px -1px 0 #86d115,  
+      1px -1px 0 #86d115,
+      -1px 1px 0 #86d115,
+      1px 1px 0 #86d115;
+}
+
+body {
+  background-image: url("headphone.jpg");
+  background-size: cover;
+  font-family: roboto;
+}
+
+p {
+  color: #000000;
+  font-size: 20px;
+  text-shadow:
+     -1px -1px 0 #86d115,  
+      1px -1px 0 #86d115,
+      -1px 1px 0 #86d115,
+      1px 1px 0 #86d115;  
+}
+
+#Home {
+  color: #e175ff;
+    background-color: #8c56dc;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #8c56dc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 24px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+  }
+
+#Third{
+  font-size: 30px;
+  color: #91d499;
+    text-shadow:
+       -1px -1px 0 #000000,  
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+
+
+}
+
+#Fourth{
+  color: #91d499;
+    text-shadow:
+       -1px -1px 0 #000000,  
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+
+}
+
+#Home {
+  display: flex;
+  justify-content: flex-end;
+   border-radius: 50px;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: dosis;
+}
+h2 {
+  color: #52828e;
+}
+h3 {
+  color: #0008ff;
+}
+
+
+#Home:hover { 
+  color: #20d1fe;
+}
+
+#Home:active{
+  color: #0011ff;
+}

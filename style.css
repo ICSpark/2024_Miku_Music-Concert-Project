@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  color: #8c56dc;
+  font-family: Dosis;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 
+    -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #ff9e9e;
+}
+
+  h3{
+    color: #f50000;
+    text-shadow: 
+      -1px -1px 0 #fff0f0,  
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+      1px 1px 0 #ebebeb;
+    font-family: roboto;
+    }
+    
+  
+
+h2 {
+  color: white;
+  font-family: roboto;
+}
+body {
+  background-image:url("musicnotes.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+button {
+  background-color: #8c56dc;
+  color: white;
+  font-size: 50px;
+  border: 2px solid #8c56dc;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 50px;
+  padding: 10px 24px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-family: roboto;  
+  color: yellow;
+  animation-name: button;
+  border-radius: 50px;
+  display: grid;
+  grid-gap: 20px;
+}
+
+#Lol {
+  background-color: #fbff00;
+  color: #fa0000;
+  font-size: 30px;
+}
+
+button:hover { 
+  color: #20d1fe;
+}
+
+button:active{
+  color: #0011ff;
+}
+
+#Credit{
+  color: white;
+  font-size: 16px;
+  font-family: roboto;
+}
